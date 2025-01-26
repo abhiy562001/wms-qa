@@ -20,6 +20,11 @@ public class ValidLoginTest {
 		ele.sendKeys("samsung Mobiles");
 		ele.sendKeys(Keys.ENTER);
 
+		// this is automation code for wms application.
+
+		String title = driver.getTitle();
+		System.out.println("Actual page title: " + title);
+
 	}
 
 }
