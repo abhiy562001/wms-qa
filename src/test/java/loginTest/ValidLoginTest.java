@@ -25,6 +25,8 @@ public class ValidLoginTest {
 		String title = driver.getTitle();
 		System.out.println("Actual page title: " + title);
 
+		System.out.println("new line of code");
+
 	}
 
 }
